@@ -1,0 +1,5 @@
+module,result
+login,pass
+payment,fail
+search,fail
+cart,pass

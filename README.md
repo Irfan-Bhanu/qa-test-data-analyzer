@@ -29,5 +29,11 @@ Status: Warning
 * Pandas
 * CSV handling
 
- ## 📊 Output Screenshot
+  📊 **Output Screenshot**
 ![Output](output-week1.png)
+
+🧠 **Skills Demonstrated**
+- Data cleaning
+- Data processing
+- Python scripting
+- QA test analysis

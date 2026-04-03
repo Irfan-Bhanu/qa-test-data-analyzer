@@ -1,3 +1,4 @@
+# This script analyzes test execution results and identifies risk level based on failure percentage
 import pandas as pd
 
 def test_summary(test_results):

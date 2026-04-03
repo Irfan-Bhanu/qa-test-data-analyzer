@@ -28,3 +28,6 @@ Status: Warning
 * Python
 * Pandas
 * CSV handling
+
+ ## 📊 Output Screenshot
+![Output](output-week1.png)

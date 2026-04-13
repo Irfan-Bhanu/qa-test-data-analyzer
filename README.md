@@ -1,4 +1,5 @@
 # QA Test Data Analyzer & Automation Framework
+Built as part of a structured QA Automation learning journey
 
 ## Overview
 
@@ -40,6 +41,17 @@ It is divided into two parts:
 
 ---
 
+## Real-World Value
+
+This project simulates how QA engineers automate real-world scenarios such as:
+- Login validation for multiple users
+- Handling different user states (valid, locked, problematic)
+- Verifying application workflows (add to cart)
+- Generating execution reports
+
+It reflects practical automation testing used in real QA environments
+
+---
 ## 🔁 Test Flow
 
 1. Read user credentials from Excel
@@ -86,7 +98,7 @@ pip install selenium pandas openpyxl webdriver-manager
 2. Run the framework:
 
 ```
-framework.ipynb
+week-2/project/framework.ipynb
 ```
 
 ---

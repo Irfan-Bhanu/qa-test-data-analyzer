@@ -143,9 +143,7 @@ In this week, I focused on handling more complex web elements and real-world sce
 
 ### Files
 
-* dropdown.py
-* alerts.py
-* forms.py
+* Selenium Advanced.ipynb
 
 ---
 

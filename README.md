@@ -5,10 +5,11 @@ Built as part of a structured QA Automation learning journey
 
 This project demonstrates a structured learning journey from **Python data handling** to **Selenium-based automation framework development**.
 
-It is divided into two parts:
+It is divided into following parts:
 
 * **Week 1** → Data analysis using Python
 * **Week 2** → Automation framework using Selenium
+* **Week 3** → Advanced Selenium
 
 ---
 ## Week 1 — Data Analysis (Python)

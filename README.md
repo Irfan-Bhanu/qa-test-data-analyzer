@@ -153,13 +153,6 @@ In this week, I focused on handling more complex web elements and real-world sce
 By the end of Week 3, I am able to automate advanced user interactions and validate results, which is essential for real-world QA automation.
 
 ---
-
-### Next Step
-
-Moving to API Testing to expand my skills beyond UI automation.
-
-
-
 ##  Future Improvements
 
 * Integrate PyTest framework
@@ -168,6 +161,113 @@ Moving to API Testing to expand my skills beyond UI automation.
 * Add parallel test execution
 
 ---
+
+##  Week 4 – API Testing 
+
+###  Overview
+
+This week focuses on API testing using Python `requests` library. It includes performing CRUD operations, validating API responses, and integrating API testing with UI automation.
+
+---
+
+###  Tech Stack
+
+* Python
+* requests
+* Selenium
+* JSON
+
+---
+
+###  Files
+
+* Week-4/project/Week-4-API testing.ipynb
+
+---
+
+###  Flow
+
+1. Send API request (GET/POST/PUT/DELETE)
+2. Capture response
+3. Convert response to JSON
+4. Validate status code
+5. Validate response data
+6. Perform data validation checks
+7. Compare UI and API data
+
+---
+
+### 📅 Topics Covered
+
+#### API Basics
+
+* Send GET request
+* Validate status code
+* Parse JSON response
+* Extract values from response
+
+---
+
+#### API Automation & Validation
+
+* Loop through multiple API endpoints
+* Perform POST request (create data)
+* Perform PUT request (update data)
+* Perform DELETE request (delete data)
+
+---
+
+###  Data Validation
+
+* Check for missing values
+* Validate data types using `isinstance()`
+* Detect duplicate entries using set
+
+---
+
+###  UI vs API Validation
+
+* Fetch data from UI using Selenium
+* Fetch data from API using requests
+* Compare UI data with API response
+
+---
+
+###  Key Learnings
+
+* API automation using Python
+* JSON parsing and data extraction
+* Writing validation logic
+* Handling multiple API requests
+* End-to-end validation using UI and API
+
+---
+
+###  Output
+
+✔ Successfully performed CRUD operations
+✔ Validated API responses
+✔ Tested multiple APIs using loops
+✔ Performed data validation checks
+✔ Compared UI and API data
+
+---
+
+###  Future Scope
+
+* Implement authentication (Bearer token, API keys)
+* Handle headers and query parameters
+* Build API automation framework using pytest
+* Integrate API with UI automation framework
+
+---
+
+### 🎯 Outcome
+
+✔ Strong understanding of API testing
+✔ Ability to validate backend data
+✔ Ready to integrate API with advanced automation
+
 
 ## Author
 

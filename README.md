@@ -95,7 +95,10 @@ qa-test-data-analyzer/
 ---
 ###  Week 4: API testing
 
-* 
+* API automation using Python
+* JSON parsing and validation
+* Data quality checks
+* End-to-end validation (UI + API)
 
 
 ###  Week 5: Data-Driven QA

@@ -9,7 +9,7 @@ Flaky test detection
 Data visualization (matplotlib)
 Dashboard creation
 Test case ranking
-'-------------------'
+
 ## Key Problems Solved
 **Pass vs Fail Analysis**
 Count total pass/fail
@@ -30,21 +30,21 @@ Trend over time
 Ranked based on:
 Failure count
 Stability
-'----------------------'
+
 ## Tech Stack
 Python
 Pandas
 Matplotlib
 
-'--------------------'
+
 ## Sample Output
 Output- Week-5.png
 
-'--------------------'
+
 ## learning outcomes
 - Learned how to analyze test execution data
 - Identified flaky and unstable tests
 - Built visual dashboards for insights
 - Transitioned from automation to data-driven QA
 
-'------------------------'
+

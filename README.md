@@ -39,8 +39,8 @@ This roadmap reflects my transition from QA fundamentals to intelligent, data-dr
 | Week 1 | Python & Testing Basics | Core Python, testing fundamentals, problem-solving   |
 | Week 2 | Selenium & API Testing  | Web automation + REST API (GET, POST, PUT, DELETE)   |
 | Week 3 | Advanced Selenium       | Dynamic elements, waits, forms, real-world scenarios |
-| Week 4 | Data-Driven QA          | Pandas, failure patterns, flaky tests, dashboards    |
-| Week 5 | ML-Driven Testing       | Predict failures, smart test prioritization          |
+| Week 4 | API Testing             | Pandas, failure patterns, flaky tests, dashboards    |
+| Week 5 | Data Analysis           | Predict failures, smart test prioritization          |
 
 ---
 
@@ -52,8 +52,8 @@ qa-test-data-analyzer/
 ├── week-1-python-basics/
 ├── week-2-selenium-api/
 ├── week-3-advanced-selenium/
-├── week-4-data-analysis/
-└── week-5-ml/
+├── week-4-API/
+└── week-5-Data Analysis/
 ```
 
 ---
@@ -93,8 +93,12 @@ qa-test-data-analyzer/
 * Automated forms, alerts, and frames
 
 ---
+###  Week 4: API testing
 
-###  Week 4: Data-Driven QA
+* 
+
+
+###  Week 5: Data-Driven QA
 
 * Performed pass/fail analysis
 * Detected flaky tests
@@ -104,7 +108,7 @@ qa-test-data-analyzer/
 
 ---
 
-###  Week 5: ML-Driven Testing *(In Progress)*
+###  Week 6: ML-Driven Testing *(In Progress)*
 
 * Predict test failures
 * Identify bug-prone modules

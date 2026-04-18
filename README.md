@@ -1,278 +1,157 @@
-# QA Test Data Analyzer & Automation Framework
-Built as part of a structured QA Automation learning journey
+#  QA Test Data Analyzer
 
-## Overview
-
-This project demonstrates a structured learning journey from **Python data handling** to **Selenium-based automation framework development**.
-
-It is divided into following parts:
-
-* **Week 1** → Data analysis using Python
-* **Week 2** → Automation framework using Selenium
-* **Week 3** → Advanced Selenium
-
----
-## Week 1 — Data Analysis (Python)
-
-### Features
-
-* Read test results from CSV files
-* Clean and process test data
-* Calculate pass/fail counts and percentages
-* Identify failed modules
-* Generate summary reports
-
-### Technologies Used
-
-* Python
-* CSV handling
-* Basic data processing
+###  From QA Basics → Automation → Data-Driven QA → ML in Testing
 
 ---
 
-## Week 2 — Automation Framework (Selenium)
+##  Project Overview
 
-### Features
+This project represents my journey of transforming from **QA fundamentals to an ML-ready QA professional** by combining:
 
-* Automated login testing using multiple users
-* Data-driven testing using Excel
-* Add-to-cart validation (real-world scenario)
-* Logging using Python logging module
-* Final test report generation
+* Python & Testing Basics
+* Selenium Automation
+* API Testing
+* Data Analysis
+* Machine Learning
 
----
-
-## Real-World Value
-
-This project simulates how QA engineers automate real-world scenarios such as:
-- Login validation for multiple users
-- Handling different user states (valid, locked, problematic)
-- Verifying application workflows (add to cart)
-- Generating execution reports
-
-It reflects practical automation testing used in real QA environments
-
----
-##  Test Flow
-
-1. Read user credentials from Excel
-2. Launch browser using Selenium
-3. Perform login for each user
-4. Validate login success/failure
-5. Add product to cart (if login successful)
-6. Capture results and generate final report
+ Goal: Build **intelligent, data-driven testing systems**
 
 ---
 
-##  Sample Output
+##  What This Project Solves
+
+✔ Automates testing workflows
+✔ Validates APIs and UI data
+✔ Identifies flaky tests
+✔ Detects failure patterns
+✔ Analyzes execution trends
+✔ Builds dashboards for insights
+✔ Prepares for ML-based test prediction
+
+---
+
+##  Learning Roadmap
+
+This roadmap reflects my transition from QA fundamentals to intelligent, data-driven testing using Machine Learning.
+
+| Week   | Focus Area              | Description                                          |
+| ------ | ----------------------- | ---------------------------------------------------- |
+| Week 1 | Python & Testing Basics | Core Python, testing fundamentals, problem-solving   |
+| Week 2 | Selenium & API Testing  | Web automation + REST API (GET, POST, PUT, DELETE)   |
+| Week 3 | Advanced Selenium       | Dynamic elements, waits, forms, real-world scenarios |
+| Week 4 | Data-Driven QA          | Pandas, failure patterns, flaky tests, dashboards    |
+| Week 5 | ML-Driven Testing       | Predict failures, smart test prioritization          |
+
+---
+
+##  Project Structure
 
 ```
------- FINAL TEST REPORT ------
-Total Passed: 1
-Total Failed: 2
-
-standard_user → PASS
-locked_out_user → FAIL
-problem_user → FAIL
+qa-test-data-analyzer/
+│
+├── week-1-python-basics/
+├── week-2-selenium-api/
+├── week-3-advanced-selenium/
+├── week-4-data-analysis/
+└── week-5-ml/
 ```
 
 ---
 
-## Tech Stack
+##  Tech Stack
 
-* Python
-* Selenium WebDriver
-* Pandas
-* Logging
-* Excel (openpyxl)
+* Python 
+* Selenium 
+* Requests (API Testing)
+* Pandas 
+* Matplotlib 
 
 ---
 
-##  How to Run
+##  Key Highlights
 
-1. Install dependencies:
+###  Week 1: Python & Testing Basics
 
-```
-pip install selenium pandas openpyxl webdriver-manager
-```
+* Learned core Python concepts
+* Practiced problem-solving
+* Understood testing fundamentals
 
-2. Run the framework:
+---
 
-```
-week-2/project/framework.ipynb
-```
+###  Week 2: Selenium & API Testing
+
+* Automated web applications using Selenium
+* Performed API testing using requests
+* Validated responses and status codes
+
+---
+
+###  Week 3: Advanced Selenium
+
+* Handled dynamic elements
+* Worked with waits (implicit & explicit)
+* Automated forms, alerts, and frames
+
+---
+
+###  Week 4: Data-Driven QA
+
+* Performed pass/fail analysis
+* Detected flaky tests
+* Identified failure patterns
+* Built test execution dashboards
+* Ranked critical test cases
+
+---
+
+###  Week 5: ML-Driven Testing *(In Progress)*
+
+* Predict test failures
+* Identify bug-prone modules
+* Apply machine learning models
+
+---
+
+##  Sample Outputs
+
+📊 Test Execution Dashboard
+📈 Failure Trend Graphs
+📉 Module-wise Failure Analysis
+
 
 ---
 
 ##  Key Learnings
 
-* Built a mini automation framework from scratch
-* Implemented data-driven testing using Excel
-* Learned Selenium automation for real-world scenarios
-* Applied logging and reporting techniques
-* Improved debugging and error handling skills
+* Transitioned from **manual QA → automation → data-driven QA**
+* Built analytical thinking using real test data
+* Learned how to identify unstable and high-risk test cases
+* Developed dashboards for better decision-making
+* Started journey towards ML-based testing
 
 ---
 
-## Week 3 – Advanced Selenium
+##  Future Scope
 
-In this week, I focused on handling more complex web elements and real-world scenarios using Selenium. This helped me understand how to automate complete user workflows and validate outputs.
-
-### Topics Covered
-
-* Dropdown handling using Select class
-* Alert handling (accept, dismiss, send_keys)
-* Form automation (text fields, radio buttons, checkboxes)
-* Date picker handling
-* File upload using send_keys
-* Handling dynamic dropdowns (State & City)
-* Scrolling using JavaScript
-* Basic waits for synchronization
-* Form submission and result validation
+* Build ML models for failure prediction
+* Detect anomalies in test execution
+* Prioritize test cases using AI
+* Integrate testing with intelligent pipelines
 
 ---
 
-### Key Learnings
+##  Final Outcome
 
-* Learned how to handle browser alerts and popups
-* Understood how to work with dynamic elements and complex UI
-* Gained experience in automating complete forms
-* Improved XPath skills for real-world scenarios
-* Learned how to validate application output after actions
-
----
-
-### Files
-
-* Selenium Advanced.ipynb
+✔ Strong QA foundation
+✔ Automation + API testing skills
+✔ Data analysis applied to testing
+✔ Clear transition towards ML in QA
 
 ---
 
-### Outcome
+##  Feedback / Collaboration
 
-By the end of Week 3, I am able to automate advanced user interactions and validate results, which is essential for real-world QA automation.
+Open to suggestions, improvements, and collaboration 🚀
 
----
-##  Future Improvements
-
-* Integrate PyTest framework
-* Add HTML reporting
-* Implement Page Object Model (POM)
-* Add parallel test execution
-
----
-
-##  Week 4 – API Testing 
-
-###  Overview
-
-This week focuses on API testing using Python `requests` library. It includes performing CRUD operations, validating API responses, and integrating API testing with UI automation.
-
----
-
-###  Tech Stack
-
-* Python
-* requests
-* Selenium
-* JSON
-
----
-
-###  Files
-
-* Week-4/project/Week-4-API testing.ipynb
-
----
-
-###  Flow
-
-1. Send API request (GET/POST/PUT/DELETE)
-2. Capture response
-3. Convert response to JSON
-4. Validate status code
-5. Validate response data
-6. Perform data validation checks
-7. Compare UI and API data
-
----
-
-### 📅 Topics Covered
-
-#### API Basics
-
-* Send GET request
-* Validate status code
-* Parse JSON response
-* Extract values from response
-
----
-
-#### API Automation & Validation
-
-* Loop through multiple API endpoints
-* Perform POST request (create data)
-* Perform PUT request (update data)
-* Perform DELETE request (delete data)
-
----
-
-###  Data Validation
-
-* Check for missing values
-* Validate data types using `isinstance()`
-* Detect duplicate entries using set
-
----
-
-###  UI vs API Validation
-
-* Fetch data from UI using Selenium
-* Fetch data from API using requests
-* Compare UI data with API response
-
----
-
-###  Key Learnings
-
-* API automation using Python
-* JSON parsing and data extraction
-* Writing validation logic
-* Handling multiple API requests
-* End-to-end validation using UI and API
-
----
-
-###  Output
-
-✔ Successfully performed CRUD operations
-✔ Validated API responses
-✔ Tested multiple APIs using loops
-✔ Performed data validation checks
-✔ Compared UI and API data
-
----
-
-###  Future Scope
-
-* Implement authentication (Bearer token, API keys)
-* Handle headers and query parameters
-* Build API automation framework using pytest
-* Integrate API with UI automation framework
-
----
-
-### 🎯 Outcome
-
-✔ Strong understanding of API testing
-✔ Ability to validate backend data
-✔ Ready to integrate API with advanced automation
-
-
-## Author
-
-**Irfan Bhanu**
-
----
-
-⭐ If you found this project useful, feel free to explore and improve!
+******************************************************************************
+**Author**: Irfan Bhanu 

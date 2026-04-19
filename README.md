@@ -24,6 +24,15 @@ What This Project Solves
 ✔ Predicts test failures using ML
 ✔ Prioritizes test execution using AI
 
+## Final Outcome- AI-Based Test Prioritization System
+
+This project builds an intelligent QA system that:
+- Predicts test failures using ML
+- Detects anomalies in execution data
+- Prioritizes test cases based on risk
+
+Reduces testing time and improves defect detection
+
 ## Learning Roadmap
 
 This roadmap reflects my transition from QA fundamentals to intelligent, data-driven testing using Machine Learning and AI.

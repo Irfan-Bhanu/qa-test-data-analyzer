@@ -1,4 +1,4 @@
-**QA Test Data Analyzer**
+## QA Test Data Analyzer
 ## From QA Basics → Automation → Data-Driven QA → ML & AI in Testing
 ## Project Overview
 

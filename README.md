@@ -28,85 +28,66 @@ What This Project Solves
 
 This roadmap reflects my transition from QA fundamentals to intelligent, data-driven testing using Machine Learning and AI.
 
-Week	Focus Area	Description
-Week 1	Python & Testing Basics	Core Python, testing fundamentals, problem-solving
-Week 2	Selenium & API Testing	Web automation + REST API (GET, POST, PUT, DELETE)
-Week 3	Advanced Selenium	Dynamic elements, waits, forms, real-world scenarios
-Week 4	API Testing	JSON validation, UI + API validation, data checks
-Week 5	Data Analysis	Failure patterns, flaky tests, dashboards
-Week 6	ML in Testing	Failure prediction, anomaly detection, prioritization
-Week 7	AI in Testing	Intelligent testing, predictive insights, optimization
+| Week   | Focus Area              | Description                                            |
+| ------ | ----------------------- | ------------------------------------------------------ |
+| Week 1 | Python & Testing Basics | Core Python, testing fundamentals, problem-solving     |
+| Week 2 | Selenium & API Testing  | Web automation + REST API (GET, POST, PUT, DELETE)     |
+| Week 3 | Advanced Selenium       | Dynamic elements, waits, forms, real-world scenarios   |
+| Week 4 | API Testing             | JSON validation, UI + API validation, data checks      |
+| Week 5 | Data Analysis           | Failure patterns, flaky tests, dashboards              |
+| Week 6 | ML in Testing           | Failure prediction, anomaly detection, prioritization  |
+| Week 7 | AI in Testing           | Intelligent testing, predictive insights, optimization |
+
 
 ## Project Structure
-qa-test-data-analyzer/
-│
-├── week-1-python-basics/
-├── week-2-selenium-api/
-├── week-3-advanced-selenium/
-├── week-4-API/
-├── week-5-data-analysis/
-├── week-6-ml-testing/
-└── week-7-ai-testing/
+| Folder                   | Description                          |
+| ------------------------ | ------------------------------------ |
+| week-1-python-basics     | Python fundamentals & testing basics |
+| week-2-selenium-api      | Selenium automation + API testing    |
+| week-3-advanced-selenium | Advanced UI automation scenarios     |
+| week-4-API               | API validation & integration testing |
+| week-5-data-analysis     | Data-driven QA & dashboards          |
+| week-6-ml-testing        | ML models for failure prediction     |
+| week-7-ai-testing        | AI-based testing concepts            |
+
 
 ## Tech Stack
-Python
-Selenium
-Requests (API Testing)
-Pandas
-Matplotlib
-Scikit-learn (ML Models)
+| Category         | Tools        |
+| ---------------- | ------------ |
+| Programming      | Python       |
+| Automation       | Selenium     |
+| API Testing      | Requests     |
+| Data Analysis    | Pandas       |
+| Visualization    | Matplotlib   |
+| Machine Learning | Scikit-learn |
+
 
 ## Key Highlights
-**Week 1: Python & Testing Basics**
-Learned core Python concepts
-Practiced problem-solving
-Understood testing fundamentals
-**Week 2: Selenium & API Testing**
-Automated web applications using Selenium
-Performed API testing using requests
-Validated responses and status codes
-**Week 3: Advanced Selenium**
-Handled dynamic elements
-Worked with waits (implicit & explicit)
-Automated forms, alerts, and frames
-**Week 4: API Testing**
-API automation using Python
-JSON parsing and validation
-Data quality checks
-End-to-end validation (UI + API)
-**Week 5: Data-Driven QA**
-Performed pass/fail analysis
-Detected flaky tests
-Identified failure patterns
-Built test execution dashboards
-Ranked critical test cases
-**Week 6: ML in Testing**
-Built ML models to predict test failures (Pass/Fail)
-Used Logistic Regression, Decision Tree, and Random Forest
-Evaluated models using Precision, Recall, F1 Score
-Identified feature importance affecting failures
-Detected anomalies using Isolation Forest
-Prioritized test cases based on failure probability
-**Week 7: AI in Testing**
-Applied AI concepts to optimize testing strategy
-Implemented intelligent test case prioritization
-Identified bug-prone modules using data patterns
-Used predictive insights for smarter test execution
+| Week   | Key Work                                              |
+| ------ | ----------------------------------------------------- |
+| Week 1 | Core Python, problem-solving, testing basics          |
+| Week 2 | Selenium automation, API requests, validations        |
+| Week 3 | Dynamic elements, waits, forms, alerts                |
+| Week 4 | JSON validation, UI + API integration                 |
+| Week 5 | Flaky tests, failure patterns, dashboards             |
+| Week 6 | ML models, evaluation metrics, anomaly detection      |
+| Week 7 | AI concepts, intelligent prioritization, optimization |
+
 
 
 ## Key Learnings
-Transitioned from manual QA → automation → data-driven QA → ML & AI-based QA
-Built analytical thinking using real test data
-Learned how to identify unstable and high-risk test cases
-Applied Machine Learning for predictive testing
-Understood how AI enhances testing efficiency and decision-making
+* Transitioned from manual QA → automation → data-driven QA → ML & AI-based QA
+* Built analytical thinking using real test data
+* Learned how to identify unstable and high-risk test cases
+* Applied Machine Learning for predictive testing
+* Understood how AI enhances testing efficiency and decision-making
 
 ## Future Scope
-Improve ML model accuracy with larger datasets
-Hyperparameter tuning for better predictions
-Integrate ML models with Selenium automation
-Build real-time AI-driven test execution pipelines
-Explore GenAI for test case generation
+* Improve ML model accuracy with larger datasets
+* Hyperparameter tuning for better predictions
+* Integrate ML models with Selenium automation
+* Build real-time AI-driven test execution pipelines
+* Explore GenAI for test case generation
 
 ## Final Outcome
 

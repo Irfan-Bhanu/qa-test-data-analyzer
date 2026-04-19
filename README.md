@@ -4,14 +4,14 @@
 
 This project represents my journey of transforming from QA fundamentals to an ML & AI-ready QA professional by combining:
 
-## Python & Testing Basics
-Selenium Automation
-API Testing
-Data Analysis
-Machine Learning
+Python & Testing Basics,
+Selenium Automation,
+API Testing,
+Data Analysis,
+Machine Learning,
 AI in Testing
 
-##Goal: Build intelligent, data-driven testing systems
+## Goal: Build intelligent, data-driven testing systems
 
 What This Project Solves
 

@@ -28,13 +28,13 @@ Module failures
 Trend over time
 **Ranking Critical Tests**
 Ranked based on:
-Failure count
+Failure count &
 Stability
 
 ## Tech Stack
-Python
-Pandas
-Matplotlib
+-Python
+-Pandas
+-Matplotlib
 
 
 ## Sample Output

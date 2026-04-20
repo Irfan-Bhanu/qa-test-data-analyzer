@@ -3,16 +3,15 @@
 This project demonstrates a mini automation framework built using Python and Selenium.
 
 **It performs**:
-Login automation
-Data-driven testing using Excel
-Validation of application behavior
-Logging and reporting
+-Login automation
+-Data-driven testing using Excel
+-Validation of application behavior
+-Logging and reporting
 
 **Features**
-Data-driven testing using Excel
-Modular framework design
-Logging using Python logging module
-Final test report generation
+-Data-driven testing using Excel
+-Logging using Python logging module
+-Final test report generation
 
 **Real-World Use Case**
 Simulates how QA teams automate login testing and validate application functionality using different user scenarios.
@@ -26,10 +25,10 @@ locked_out_user → FAIL
 problem_user → FAIL
 
 **Tech Stack**
-Python
-Selenium
-Pandas
-Logging
+-Python
+-Selenium
+-Pandas
+-Logging
 
 ▶️ **How to Run**
 Install dependencies:

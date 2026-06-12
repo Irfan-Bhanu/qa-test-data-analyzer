@@ -53,24 +53,26 @@ assertion happens
 test ends
    ↓
 fixture resumes → driver.quit()
+
+**Day Wise Execution**
 Day 1- created structure on Day 1 and executed a simple login case
 **************************************
 Day 2- I implemented Page Object Model with fixtures and explicit waits to build a stable and maintainable automation framework.
 *****************************************
 
 Day 3:
-upgraded conftest.py to save screenshot. use hookimpl fixtures to save screenshot.
-created dynamic_page.py and test_dynamic control for better structures
-created html report using installing pip install pytest -html and pytest --html=reports/report.html
-done parallel execution by installing pip install pytest -xdist and execute pytest -n 2 which will help to run each test in different window at same time
+✔upgraded conftest.py to save screenshot. use hookimpl fixtures to save screenshot.
+✔created dynamic_page.py and test_dynamic control for better structures
+✔created html report using installing pip install pytest -html and pytest --html=reports/report.html
+✔done parallel execution by installing pip install pytest -xdist and execute pytest -n 2 which will help to run each test in different window at same time
 
 *******************************************
 
 Day 4 : 
-Handling alerts
-Handling iframes
-Handle dropdown
-Integrating them in framework
+✔Handling alerts
+✔Handling iframes
+✔Handle dropdown
+✔Integrating them in framework
 
 **************************************
 
@@ -84,11 +86,11 @@ Day 5:
 
 ***************************************
 Day 6:
-pytest parameterize
-Read data from CSV
-Read data from json
-Read data from excel - pip install openpyxl
-Connect Excel/CSV data to Login Framework
+✔pytest parameterize
+✔Read data from CSV
+✔Read data from json
+✔Read data from excel - pip install openpyxl
+✔Connect Excel/CSV data to Login Framework
 
 
 

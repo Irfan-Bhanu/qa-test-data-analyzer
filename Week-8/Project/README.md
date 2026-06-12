@@ -55,6 +55,7 @@ test ends
 fixture resumes → driver.quit()
 
 **Day Wise Execution**
+
 Day 1- created structure on Day 1 and executed a simple login case
 **************************************
 Day 2- I implemented Page Object Model with fixtures and explicit waits to build a stable and maintainable automation framework.

@@ -1,0 +1,5 @@
+//button[text()='Click Me'] - find by visible text
+//input[contains(@id,'user')] - when ids are dynamic
+//div[@class='form']/input - parent transversal
+//label[text()='Username']/following-sibling::input -following sibling
+//input[starts-with(@id,'user')]- starts-with

@@ -1,63 +1,97 @@
-**Project Description**
-A Selenium-Python automation framework built using the Page Object Model (POM) design pattern and Pytest. 
-The framework supports data-driven testing using CSV, JSON, and Excel files, reusable page objects, configuration management, HTML reporting, and automatic screenshot capture on test failures.
+This projects contains a hybrid framework structure: 
+Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
 
-**Architecture**
+**_Folder Structure_**
+**PyTest framework:**
+tests/-->test_login.py - This contains test cases and it is entry point for execution
 
-QA Automation Framework
-│
-├── tests/            # Test cases
-├── pages/            # Page Objects
-├── utils/            # Reusable utilities
-├── config/           # Configuration files
-├── testdata/         # CSV, JSON, Excel test data
-├── screenshots/      # Failure screenshots
-├── reports/          # HTML reports
-└── conftest.py       # Fixtures and hooks
+**Page Object Model(POM)**:
+Pages
+-->Basepage.py - It contains common reusable actions like click,type,find
+-->login_page.py - represents one page. contains locators and actions of login_page
+-->Dynamic_page.py - contains locators for dynamic page
 
-Framework Type:
-* Page Object Model (POM)
-* Data-Driven Framework
-* Pytest-Based Framework
 
-**Implemented Features**
+**FrameWork core(Custom utility layer)**:
+utils
+----> driver_factory.py - browser setup and driver creation
+----> waits_utils.py - wait for elements and wait for clickable
 
-Implemented Features
+**Data Driven Framework**:
+Config
+-----> config.ini - base_url and browser=chrome
+-----> config_reader.py --reads config dynamically
 
-Framework
-✔ Page Object Model (POM)
-✔ BasePage
-✔ Driver Factory
-✔ Config Reader
-✔ Pytest Fixtures
-✔ Wait Utility
+**Pytest framework**:
+conftest.py --> fixtures(setup/teardown),driver lifecycle
 
-Selenium
-✔ XPath Strategies
-✔ Alerts
-✔ Dynamic Controls
-✔ Tables
-✔ Checkboxes
-✔ Login Automation
+reports - collects output
 
-Reporting
-✔ HTML Reports
-✔ Screenshot Capture on Failure
+**Flow:**
+pytest starts
+   ↓
+find test_basic_auth
+   ↓
+see "driver" → call fixture
+   ↓
+get_driver()
+   ↓
+get_browser() → config.ini
+   ↓
+Chrome launches
+   ↓
+yield driver → test starts
+   ↓
+LoginPage(driver)
+   ↓
+BasePage init → WaitUtils init
+   ↓
+test calls method → driver.get()
+   ↓
+assertion happens
+   ↓
+test ends
+   ↓
+fixture resumes → driver.quit()
+Day 1- created structure on Day 1 and executed a simple login case
+**************************************
+Day 2- I implemented Page Object Model with fixtures and explicit waits to build a stable and maintainable automation framework.
+*****************************************
 
-Data Driven Testing
-✔ CSV Integration
-✔ JSON Integration
-✔ Excel Integration
-✔ pytest.parametrize
+Day 3:
+upgraded conftest.py to save screenshot. use hookimpl fixtures to save screenshot.
+created dynamic_page.py and test_dynamic control for better structures
+created html report using installing pip install pytest -html and pytest --html=reports/report.html
+done parallel execution by installing pip install pytest -xdist and execute pytest -n 2 which will help to run each test in different window at same time
 
-Validation
-✔ Login Workflow Validation
-✔ Expected Result Validation
+*******************************************
 
-**Test Passed**
-<img width="1748" height="876" alt="image" src="https://github.com/user-attachments/assets/09d2a244-9f2c-4730-8d6d-75ed8efc4b0f" />
-**Screenshots on Test Failure**
-<img width="1728" height="693" alt="image" src="https://github.com/user-attachments/assets/fed0fb0a-46d0-43ea-ab64-02363744be93" />
+Day 4 : 
+Handling alerts
+Handling iframes
+Handle dropdown
+Integrating them in framework
+
+**************************************
+
+Day 5:
+✔ Handle tables
+✔ Handle checkboxes
+✔ Upload files
+✔ Learn advanced XPath
+✔ Learn dynamic XPath
+✔ Traverse elements
+
+***************************************
+Day 6:
+pytest parameterize
+Read data from CSV
+Read data from json
+Read data from excel - pip install openpyxl
+Connect Excel/CSV data to Login Framework
+
+
+
 
 
 

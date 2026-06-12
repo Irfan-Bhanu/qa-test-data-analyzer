@@ -93,6 +93,13 @@ Day 6:
 ✔Read data from excel - pip install openpyxl
 ✔Connect Excel/CSV data to Login Framework
 
+**project Structure**
+<img width="316" height="535" alt="image" src="https://github.com/user-attachments/assets/0ccdefa9-eecc-4945-b012-f91865840e94" />
+**Failed test case screenshot**
+<img width="1549" height="786" alt="image" src="https://github.com/user-attachments/assets/b55bdbe1-a5b5-4d74-8e38-7f835f220123" />
+**Passed case**
+<img width="1673" height="887" alt="image" src="https://github.com/user-attachments/assets/30fc9acb-0152-4467-bdee-151ab23011b6" />
+
 
 
 

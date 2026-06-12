@@ -1,113 +1,231 @@
-## QA Test Data Analyzer
-## From QA Basics → Automation → Data-Driven QA → ML & AI in Testing
-## Project Overview
+# QA Test Data Analyzer
 
-This project represents my journey of transforming from QA fundamentals to an ML & AI-ready QA professional by combining:
+## From QA Basics → Automation → Data-Driven QA → Machine Learning → AI in Testing
 
-Python & Testing Basics,
-Selenium Automation,
-API Testing,
-Data Analysis,
-Machine Learning,
-AI in Testing
+This repository documents my structured learning journey from QA fundamentals to advanced Automation Testing, Data Analysis, Machine Learning, and Artificial Intelligence in Testing.
 
-## Goal: Build intelligent, data-driven testing systems
+The goal is not only to automate testing but also to build intelligent, data-driven QA systems capable of predicting failures, identifying risks, and optimizing test execution.
 
-What This Project Solves
+---
 
-✔ Automates testing workflows
-✔ Validates APIs and UI data
-✔ Identifies flaky tests
-✔ Detects failure patterns
-✔ Analyzes execution trends
-✔ Builds dashboards for insights
-✔ Predicts test failures using ML
-✔ Prioritizes test execution using AI
+# Project Vision
 
-## Final Project- AI-Based Test Prioritization System
+Transform traditional QA practices into intelligent testing systems by combining:
 
-This project builds an intelligent QA system that:
-- Predicts test failures using ML
-- Detects anomalies in execution data
-- Prioritizes test cases based on risk
+* Python Programming
+* Selenium Automation
+* API Testing
+* Data Analysis
+* Machine Learning
+* Artificial Intelligence
 
-Reduces testing time and improves defect detection
+### Long-Term Goal
 
-## Learning Roadmap
+Build intelligent QA systems that can:
 
-This roadmap reflects my transition from QA fundamentals to intelligent, data-driven testing using Machine Learning and AI.
+* Automate repetitive testing tasks
+* Analyze execution trends
+* Detect flaky tests
+* Predict failures before execution
+* Prioritize high-risk test cases
+* Generate actionable testing insights
 
-| Week   | Focus Area              | Description                                            |
-| ------ | ----------------------- | ------------------------------------------------------ |
-| Week 1 | Python & Testing Basics | Core Python, testing fundamentals, problem-solving     |
-| Week 2 | Selenium & API Testing  | Web automation + REST API (GET, POST, PUT, DELETE)     |
-| Week 3 | Advanced Selenium       | Dynamic elements, waits, forms, real-world scenarios   |
-| Week 4 | API Testing             | JSON validation, UI + API validation, data checks      |
-| Week 5 | Data Analysis           | Failure patterns, flaky tests, dashboards              |
-| Week 6 | ML in Testing           | Failure prediction, anomaly detection, prioritization  |
-| Week 7 | AI in Testing           | Intelligent testing, predictive insights, optimization |
+---
 
+# Current Progress
 
-## Project Structure
-| Folder                   | Description                          |
-| ------------------------ | ------------------------------------ |
-| week-1-python-basics     | Python fundamentals & testing basics |
-| week-2-selenium-api      | Selenium automation + API testing    |
-| week-3-advanced-selenium | Advanced UI automation scenarios     |
-| week-4-API               | API validation & integration testing |
-| week-5-data-analysis     | Data-driven QA & dashboards          |
-| week-6-ml-testing        | ML models for failure prediction     |
-| week-7-ai-testing        | AI-based testing concepts            |
+## Completed
 
+### Week 1 – Python & Testing Fundamentals
 
-## Tech Stack
-| Category         | Tools        |
-| ---------------- | ------------ |
-| Programming      | Python       |
-| Automation       | Selenium     |
-| API Testing      | Requests     |
-| Data Analysis    | Pandas       |
-| Visualization    | Matplotlib   |
-| Machine Learning | Scikit-learn |
+* Python basics
+* Functions
+* OOP concepts
+* Problem solving
+* Testing fundamentals
 
+### Week 2 – Selenium & API Foundations
 
-## Key Highlights
-| Week   | Key Work                                              |
-| ------ | ----------------------------------------------------- |
-| Week 1 | Core Python, problem-solving, testing basics          |
-| Week 2 | Selenium automation, API requests, validations        |
-| Week 3 | Dynamic elements, waits, forms, alerts                |
-| Week 4 | JSON validation, UI + API integration                 |
-| Week 5 | Flaky tests, failure patterns, dashboards             |
-| Week 6 | ML models, evaluation metrics, anomaly detection      |
-| Week 7 | AI concepts, intelligent prioritization, optimization |
+* Selenium setup
+* Locators
+* WebDriver basics
+* API fundamentals
+* Request validation
 
+### Week 3 – Advanced Selenium Concepts
 
+* Dynamic elements
+* Explicit waits
+* XPath strategies
+* Real-world automation scenarios
 
-## Key Learnings
-* Transitioned from manual QA → automation → data-driven QA → ML & AI-based QA
-* Built analytical thinking using real test data
-* Learned how to identify unstable and high-risk test cases
-* Applied Machine Learning for predictive testing
-* Understood how AI enhances testing efficiency and decision-making
+### Week 4 – API Testing
 
-## Future Scope
-* Improve ML model accuracy with larger datasets
-* Hyperparameter tuning for better predictions
-* Integrate ML models with Selenium automation
-* Build real-time AI-driven test execution pipelines
-* Explore GenAI for test case generation
+* JSON validation
+* API response validation
+* UI + API integration concepts
 
-## Final Outcome
+### Week 5 – Data Analysis Foundations
 
-✔ Strong QA foundation
-✔ Automation + API testing skills
-✔ Data analysis applied to testing
-✔ ML-based failure prediction system
-✔ AI-driven test prioritization approach
+* Understanding QA metrics
+* Failure pattern analysis
+* Data-driven decision making
 
-## Feedback / Collaboration
+### Week 6 – ML Foundations for Testing
 
-Open to suggestions, improvements, and collaboration 🚀
+* Failure prediction concepts
+* Anomaly detection concepts
+* Test prioritization concepts
 
-Author: Irfan Bhanu
+### Week 7 – AI in Testing
+
+* AI-assisted testing concepts
+* Intelligent test execution strategies
+* Risk-based prioritization
+
+### Week 8 – Data-Driven Selenium Automation Framework
+
+Built a complete Hybrid Automation Framework using:
+
+* Page Object Model (POM)
+* Data-Driven Testing
+* Pytest Framework
+* Utility-Based Design
+
+#### Features Implemented
+
+##### Framework Design
+
+* Page Object Model (POM)
+* BasePage abstraction
+* Driver Factory
+* Config Reader
+* Pytest Fixtures
+
+##### Selenium Automation
+
+* Login Automation
+* Alerts
+* Dynamic Controls
+* Tables
+* Checkboxes
+* File Upload
+* Frames / iFrames
+* Dropdowns
+* Advanced XPath
+
+##### Reporting
+
+* HTML Reports
+* Screenshot Capture on Failure
+
+##### Data-Driven Testing
+
+* CSV Integration
+* JSON Integration
+* Excel Integration
+* pytest.parametrize
+
+##### Execution
+
+* Parallel Execution using pytest-xdist
+
+---
+
+# Repository Structure
+
+| Folder | Description                   |
+| ------ | ----------------------------- |
+| Week-1 | Python Fundamentals           |
+| Week-2 | Selenium & API Basics         |
+| Week-3 | Advanced Selenium             |
+| Week-4 | API Testing                   |
+| Week-5 | Data Analysis                 |
+| Week-6 | ML in Testing                 |
+| Week-7 | AI in Testing                 |
+| Week-8 | Selenium Automation Framework |
+
+---
+
+# Technology Stack
+
+| Category           | Technology                  |
+| ------------------ | --------------------------- |
+| Programming        | Python                      |
+| Automation         | Selenium WebDriver          |
+| Test Framework     | Pytest                      |
+| Configuration      | ConfigParser                |
+| Reporting          | Pytest-HTML                 |
+| Parallel Execution | Pytest-XDist                |
+| Data Processing    | Pandas                      |
+| Excel Support      | OpenPyXL                    |
+| Machine Learning   | Scikit-Learn (Planned)      |
+| AI                 | LLM-Based Testing (Planned) |
+
+---
+
+# Future Roadmap
+
+## Automation Engineering
+
+* API Automation Framework
+* Logging Framework
+* Retry Mechanism
+* Cross-Browser Execution
+* Selenium Grid
+* Jenkins Integration
+* Docker Integration
+
+## Data Analytics
+
+* Pandas
+* NumPy
+* Data Visualization
+* Dashboarding
+
+## Machine Learning
+
+* Failure Prediction Models
+* Test Risk Classification
+* Flaky Test Detection
+* Anomaly Detection
+
+## Artificial Intelligence
+
+* AI-Based Test Prioritization
+* GenAI Test Case Generation
+* AI-Powered QA Assistant Chatbot
+* Intelligent Test Execution Pipelines
+
+---
+
+# Final Goal
+
+### AI-Based Test Prioritization System
+
+A complete intelligent QA platform capable of:
+
+* Predicting test failures using ML
+* Detecting anomalies in execution data
+* Prioritizing tests based on risk
+* Reducing execution time
+* Improving defect detection efficiency
+
+---
+
+# Key Learning Outcomes
+
+* Transitioned from Manual QA to Automation Engineering
+* Built a Selenium-Python Automation Framework
+* Learned Data-Driven Testing Techniques
+* Understood ML applications in QA
+* Explored AI-assisted testing strategies
+* Developed a roadmap toward intelligent testing systems
+
+---
+
+## Feedback & Collaboration
+
+Suggestions, feedback, and collaboration opportunities are always welcome.
+
+**Author:** Irfan Bhanu

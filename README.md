@@ -91,45 +91,6 @@ Built a complete Hybrid Automation Framework using:
 * Data-Driven Testing
 * Pytest Framework
 * Utility-Based Design
-
-#### Features Implemented
-
-##### Framework Design
-
-* Page Object Model (POM)
-* BasePage abstraction
-* Driver Factory
-* Config Reader
-* Pytest Fixtures
-
-##### Selenium Automation
-
-* Login Automation
-* Alerts
-* Dynamic Controls
-* Tables
-* Checkboxes
-* File Upload
-* Frames / iFrames
-* Dropdowns
-* Advanced XPath
-
-##### Reporting
-
-* HTML Reports
-* Screenshot Capture on Failure
-
-##### Data-Driven Testing
-
-* CSV Integration
-* JSON Integration
-* Excel Integration
-* pytest.parametrize
-
-##### Execution
-
-* Parallel Execution using pytest-xdist
-
 ---
 
 # Repository Structure

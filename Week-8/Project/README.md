@@ -1,5 +1,57 @@
+# Data-Driven Selenium Automation Framework
+
+A Selenium-Python automation framework built using the Page Object Model (POM) design pattern and Pytest. The framework supports reusable page objects, configuration management, explicit waits, HTML reporting, screenshot capture on failure, parallel execution, and data-driven testing using CSV, JSON, and Excel files.
+
 This projects contains a hybrid framework structure: 
 Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
+
+## Technologies Used
+
+* Python
+* Selenium WebDriver
+* Pytest
+* OpenPyXL
+* ConfigParser
+* Pytest-HTML
+* Pytest-XDist
+
+## Implemented Features
+
+### Framework
+
+✔ Page Object Model (POM)
+✔ BasePage Design
+✔ Driver Factory
+✔ Config Reader
+✔ Pytest Fixtures
+
+### Selenium
+
+✔ Login Automation
+✔ Alerts
+✔ Dynamic Controls
+✔ Tables
+✔ Checkboxes
+✔ File Upload
+✔ Frames / iFrames
+✔ Dropdowns
+✔ Advanced XPath
+
+### Reporting
+
+✔ HTML Reports
+✔ Screenshots on Failure
+
+### Data Driven Testing
+
+✔ CSV Integration
+✔ JSON Integration
+✔ Excel Integration
+✔ pytest.parametrize
+
+### Execution
+
+✔ Parallel Execution using pytest-xdist
 
 **_Folder Structure_**
 **PyTest framework:**
@@ -17,8 +69,8 @@ utils
 ----> driver_factory.py - browser setup and driver creation
 ----> waits_utils.py - wait for elements and wait for clickable
 
-**Data Driven Framework**:
-Config
+
+**Configuration Management**
 -----> config.ini - base_url and browser=chrome
 -----> config_reader.py --reads config dynamically
 
@@ -28,31 +80,31 @@ conftest.py --> fixtures(setup/teardown),driver lifecycle
 reports - collects output
 
 **Flow:**
-pytest starts
-   ↓
-find test_basic_auth
-   ↓
-see "driver" → call fixture
-   ↓
-get_driver()
-   ↓
-get_browser() → config.ini
-   ↓
-Chrome launches
-   ↓
-yield driver → test starts
-   ↓
-LoginPage(driver)
-   ↓
-BasePage init → WaitUtils init
-   ↓
-test calls method → driver.get()
-   ↓
-assertion happens
-   ↓
-test ends
-   ↓
-fixture resumes → driver.quit()
+## Framework Execution Flow
+Test Case
+↓
+Pytest Fixture
+↓
+Driver Factory
+↓
+Config Reader
+↓
+Browser Launch
+↓
+Page Object
+↓
+BasePage Methods
+↓
+Wait Utilities
+↓
+Element Interaction
+↓
+Assertion
+↓
+Report & Screenshot
+↓
+Driver Quit
+
 
 **Day Wise Execution**
 

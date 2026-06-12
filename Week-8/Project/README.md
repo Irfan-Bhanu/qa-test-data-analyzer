@@ -53,7 +53,7 @@ Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
 
 ✔ Parallel Execution using pytest-xdist
 
-**_Folder Structure_**
+## Folder Structure
 **PyTest framework:**
 tests/-->test_login.py - This contains test cases and it is entry point for execution
 
@@ -79,7 +79,6 @@ conftest.py --> fixtures(setup/teardown),driver lifecycle
 
 reports - collects output
 
-**Flow:**
 ## Framework Execution Flow
 Test Case
 ↓
@@ -106,7 +105,7 @@ Report & Screenshot
 Driver Quit
 
 
-**Day Wise Execution**
+## Development execution timeline
 
 Day 1- created structure on Day 1 and executed a simple login case
 **************************************
@@ -144,6 +143,8 @@ Day 6:
 ✔Read data from json
 ✔Read data from excel - pip install openpyxl
 ✔Connect Excel/CSV data to Login Framework
+
+## Screenshots
 
 **project Structure**
 

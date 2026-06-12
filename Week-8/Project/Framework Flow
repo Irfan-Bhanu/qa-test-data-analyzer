@@ -1,0 +1,23 @@
+Test
+ ↓
+Fixture
+ ↓
+Driver Factory
+ ↓
+Config Reader
+ ↓
+Browser
+ ↓
+Page Object
+ ↓
+BasePage
+ ↓
+Wait Utility
+ ↓
+Element Interaction
+ ↓
+Assertion
+ ↓
+Screenshot (if failed)
+ ↓
+Report

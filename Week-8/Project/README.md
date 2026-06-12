@@ -77,7 +77,42 @@ utils
 **Pytest framework**:
 conftest.py --> fixtures(setup/teardown),driver lifecycle
 
-reports - collects output
+reports - stores HTML execution reports
+
+## Folder Structure
+
+```text
+Project
+│
+├── tests/
+│   ├── test_login.py
+│   ├── test_tables.py
+│   └── test_dynamic_controls.py
+│
+├── pages/
+│   ├── BasePage.py
+│   ├── login_page.py
+│   └── dynamic_page.py
+│
+├── utils/
+│   ├── driver_factory.py
+│   ├── waits_utils.py
+│   └── data_reader.py
+│
+├── config/
+│   ├── config.ini
+│   └── config_reader.py
+│
+├── testdata/
+│   ├── login_data.csv
+│   ├── login_data.json
+│   └── login_data.xlsx
+│
+├── reports/
+├── screenshots/
+└── conftest.py
+```
+
 
 ## Framework Execution Flow
 Test Case
@@ -159,6 +194,15 @@ Day 6:
 <img width="1673" height="887" alt="image" src="https://github.com/user-attachments/assets/30fc9acb-0152-4467-bdee-151ab23011b6" />
 
 
+## Future Enhancements
+
+* API Testing using Requests
+* Logging Framework
+* Retry Mechanism
+* Cross-Browser Execution
+* Jenkins Integration
+* Docker Integration
+* AI-Powered Test Analytics
 
 
 

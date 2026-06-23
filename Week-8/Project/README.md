@@ -178,6 +178,99 @@ Day 6:
 ✔Read data from json
 ✔Read data from excel - pip install openpyxl
 ✔Connect Excel/CSV data to Login Framework
+****************************************
+## Day 7 - Windows & Tabs Handling
+
+### Concepts Covered
+
+✔ Multiple Browser Windows
+✔ Window Handles
+✔ Switching Between Windows
+✔ Parent and Child Windows
+✔ driver.close() vs driver.quit()
+
+### Implementation
+
+* Opened new browser windows using Selenium
+* Captured window handles using `driver.window_handles`
+* Switched between parent and child windows
+* Closed specific windows and returned to parent window
+* Implemented window handling inside the Page Object Model framework
+
+### Key Learning
+
+Understanding window handles is essential when testing applications that open new tabs, payment gateways, authentication pages, or external links.
+
+********************************************
+
+## Day 8 - Advanced User Interactions (ActionChains)
+
+### Concepts Covered
+
+✔ Hover Actions
+✔ Right Click (Context Click)
+✔ Double Click
+✔ Drag and Drop
+✔ Keyboard Actions
+
+### Implementation
+
+* Used ActionChains to simulate real user interactions
+* Hovered over hidden elements and validated dynamic content
+* Performed right-click actions and handled resulting alerts
+* Executed double-click actions and validated success messages
+* Implemented drag-and-drop functionality
+* Learned keyboard shortcuts using ActionChains
+
+### Key Learning
+
+ActionChains allows Selenium to simulate complex user interactions beyond simple clicks and text entry.
+
+*************************************************
+
+## Day 9 - Scrolling & JavaScript Executor
+
+### Concepts Covered
+
+✔ Scroll Down
+✔ Scroll Up
+✔ Scroll To Element
+✔ JavaScript Click
+
+### Implementation
+
+* Added reusable scrolling methods to BasePage
+* Implemented JavaScript Executor utility methods
+* Performed scrolling to dynamic page sections
+* Used JavaScript click when Selenium click was unreliable
+
+### Key Learning
+
+JavaScript Executor is a powerful fallback mechanism when standard Selenium actions fail due to overlays, animations, or hidden elements.
+
+*********************************************
+
+## Day 10 - Framework Enhancements
+
+### Concepts Covered
+
+✔ Logging
+✔ Retry Mechanism
+✔ Custom Markers
+
+### Implementation
+
+* Added logging framework using Python logging module
+* Implemented INFO, WARNING and ERROR level logs
+* Configured pytest-rerunfailures for flaky test retries
+* Added custom markers for selective execution
+* Executed tests using marker-based filtering
+
+### Key Learning
+
+Framework-level enhancements improve maintainability, debugging, execution efficiency, and scalability of automation projects.
+
+---
 
 ## Screenshots
 
@@ -204,6 +297,58 @@ Day 6:
 * Docker Integration
 * AI-Powered Test Analytics
 
+## Final Selenium Framework Capabilities
 
+### Framework Design
+
+✔ Page Object Model (POM)
+✔ BasePage Design
+✔ Driver Factory
+✔ Config Reader
+✔ Utility Layer
+✔ Reusable Framework Architecture
+
+### Selenium Features
+
+✔ Alerts
+✔ Frames / iFrames
+✔ Windows & Tabs
+✔ Dynamic Controls
+✔ Dropdowns
+✔ Tables
+✔ Checkboxes
+✔ File Upload
+✔ Advanced XPath
+
+### ActionChains
+
+✔ Hover
+✔ Right Click
+✔ Double Click
+✔ Drag & Drop
+✔ Keyboard Actions
+
+### JavaScript Executor
+
+✔ Scroll Down
+✔ Scroll Up
+✔ Scroll To Element
+✔ JavaScript Click
+
+### Reporting & Execution
+
+✔ HTML Reports
+✔ Screenshots on Failure
+✔ Logging
+✔ Parallel Execution
+✔ Retry Mechanism
+✔ Custom Markers
+
+### Data Driven Testing
+
+✔ CSV Integration
+✔ JSON Integration
+✔ Excel Integration
+✔ Pytest Parametrize
 
 

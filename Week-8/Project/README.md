@@ -2,15 +2,15 @@
 
 A Selenium-Python automation framework built using the Page Object Model (POM) design pattern and Pytest. The framework supports reusable page objects, configuration management, explicit waits, HTML reporting, screenshot capture on failure, parallel execution, and data-driven testing using CSV, JSON, and Excel files.
 
+This projects contains a hybrid framework structure: 
+Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
+
 ## Project Objective
 
 To build a scalable Selenium-Python automation framework using industry-standard design patterns including Page Object Model (POM), Data-Driven Testing, Pytest, Reporting, Logging, and Framework Utilities.
 
 The framework demonstrates real-world automation capabilities and serves as the foundation for future API Testing and AI-driven QA initiatives.
 
-
-This projects contains a hybrid framework structure: 
-Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
 
 ## Advanced Selenium Framework Features
 

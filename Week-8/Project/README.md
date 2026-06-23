@@ -2,8 +2,36 @@
 
 A Selenium-Python automation framework built using the Page Object Model (POM) design pattern and Pytest. The framework supports reusable page objects, configuration management, explicit waits, HTML reporting, screenshot capture on failure, parallel execution, and data-driven testing using CSV, JSON, and Excel files.
 
+## Project Objective
+
+To build a scalable Selenium-Python automation framework using industry-standard design patterns including Page Object Model (POM), Data-Driven Testing, Pytest, Reporting, Logging, and Framework Utilities.
+
+The framework demonstrates real-world automation capabilities and serves as the foundation for future API Testing and AI-driven QA initiatives.
+
+
 This projects contains a hybrid framework structure: 
 Hybrid Framework = POM + Data-Driven + PyTest + Utility-Based Design
+
+## Advanced Selenium Framework Features
+
+✔ Window Handling
+
+✔ ActionChains (Hover, Right Click, Double Click, Drag & Drop)
+
+✔ JavaScript Executor
+
+✔ Logging Framework
+
+✔ Retry Mechanism
+
+✔ Custom Markers
+
+✔ Data-Driven Testing
+
+✔ Parallel Execution
+
+✔ HTML Reporting & Screenshots
+
 
 ## Technologies Used
 
@@ -142,7 +170,11 @@ Driver Quit
 
 ## Development execution timeline
 
-Day 1- created structure on Day 1 and executed a simple login case
+Day 1:
+✔ Created framework folder structure
+✔ Implemented browser launch
+✔ Executed first login automation test
+✔ Established Page Object Model foundation
 **************************************
 Day 2- I implemented Page Object Model with fixtures and explicit waits to build a stable and maintainable automation framework.
 *****************************************
@@ -289,12 +321,12 @@ Framework-level enhancements improve maintainability, debugging, execution effic
 
 ## Future Enhancements
 
-* API Testing using Requests
-* Logging Framework
-* Retry Mechanism
+* API Testing Framework using Requests
 * Cross-Browser Execution
-* Jenkins Integration
+* Jenkins CI/CD Integration
 * Docker Integration
+* Selenium Grid
+* GitHub Actions
 * AI-Powered Test Analytics
 
 ## Final Selenium Framework Capabilities
